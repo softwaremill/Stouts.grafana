@@ -1,7 +1,7 @@
 ---
 
 - name: grafana-install | Add debian repository pt. 1
-  apt_key: url='{{grafana_apt_key}}' id=D59097AB
+  apt_key: url='{{grafana_apt_key}}' id=24098CB6
 
 - name: grafana-install | Add debian repository pt. 2
   apt_repository: repo='{{grafana_apt_repository}}'
